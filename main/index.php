@@ -18,7 +18,7 @@ require './../Header/Head.php';
                 <div class="text">Калькулятор представляет из себя интерфейс для расчёта<br />затрат стоимости дома, исходя из ваших пожеланий </div>
             </div>
             <div>
-                <h1 class="title">Калькулятор строительства</h1>
+                <h1 class="title">Калькулятор строительстваdsf</h1>
                 <div class="maincalc">
                     <div class='home_container'>
                         <img src='../assets/homemini.png' alt='Homemini' class='home'></img>
