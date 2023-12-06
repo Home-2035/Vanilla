@@ -163,7 +163,10 @@ a.btn {
     opacity: 0;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
-    background: #fafafa;
+    background: #39363E;
+    padding: 0 20px;
+    padding-top: 30px;
+    border-radius: 30px;
 }
 .modal-wrapper.open .modal {
     margin-top: -200px;
@@ -189,7 +192,7 @@ a.btn {
 .good-job {
     text-align: center;
     font-family: 'Montserrat', Arial,       Helvetica, sans-serif;
-    color: #e2525c;
+    color: white;
 }
 .good-job .fa-thumbs-o-up {
     font-size: 60px;
@@ -221,29 +224,22 @@ a.btn {
     margin: 0 0 20px 0;
 }
 .modal .content form input {
-    color: #000;
+    color: white;
     padding: 15px;
-    border: none;
+    border-color: rgba(0, 0, 0, 0);
+    border-bottom: 3px solid #FF855D;
     margin-bottom: 15px;
-    box-shadow: 0px 1px 3px 1px #e9e9e9;
     font-size: 15px;
+    background-color: rgba(0, 0, 0, 0);
 }
-.modal .content form input[type=submit]{
-    padding: 10px 40px;
-    max-width: 200px;
-    margin: auto;
-    border-radius: 54px;
+.downloadPDF, .downloadExcel{
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 8px;
+    background-color: rgba(0,0,0,0);
     color: #fff;
-    background: #f7b231;
-    background: -moz-linear-gradient(top, #ffc281 0%, #ff8c97 100%);
-    background: -webkit-linear-gradient(top, #ffc281 0%, #ff8c97 100%);
-    background: linear-gradient(to bottom, #ffc281 0%, #ff8c97 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$color-yellow', endColorstr='$color-pink', GradientType=0);
-    font-size: 15px;
-    text-shadow: 0px 0px 6px #e54242;
-    display: inline-block;
-    border: none;
-    outline: none;
+    border: 3px solid #FF855D;
+    margin: 10px 0;
 }
 
 #itogPrice {
