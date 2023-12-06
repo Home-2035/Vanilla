@@ -2,7 +2,7 @@
   $db_host = 'localhost';
   $db_user = 'root';
   $db_password = '';
-  $db_db = 'u2339146_Materials';
+  $db_db = 'testing';
  
   $mysqli = @new mysqli(
     $db_host,
