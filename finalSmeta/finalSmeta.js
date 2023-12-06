@@ -272,7 +272,8 @@ function calculations(sip2500, sip174, sushka, metalocherepica, montaj, crep, ve
         for (let i = 0; i < matObjArr.length; i++) {
             sum += Number(matObjArr[i].price.substring(0, matObjArr[i].price.length - 5));
         }
-        document.getElementById('itogPrice').innerHTML = sum + 6374 + ' руб.';
+        sum += 6374;
+        document.getElementById('itogPrice').innerHTML = sum + ' руб.';
         return sum;
     }
 
