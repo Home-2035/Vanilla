@@ -12,6 +12,9 @@ html {
 .matherials_table{
   color: white;
 }
+.floor img:first-child{
+  display: none;
+}
 .container_home .list .item{
   margin-top: 50%;
   width: 100%;
@@ -656,11 +659,9 @@ button .Empty {
 }
 .material ul li {
   font-size: 20px;
-  margin-left: 74px;
+  /*margin-left: 74px;*/
 }
-.prices{
-  margin-left: 90px;
-}
+
 .modalWall h2{
 margin-left: 5%;
 }

@@ -1,8 +1,8 @@
 <?php
   $db_host = 'localhost';
-  $db_user = 'root';
-  $db_password = 'root';
-  $db_db = 'bd';
+  $db_user = 'u2339146_Changer';
+  $db_password = 'neqde2-bAkryh-nyttyt';
+  $db_db = 'u2339146_Materials';
  
   $mysqli = @new mysqli(
     $db_host,
