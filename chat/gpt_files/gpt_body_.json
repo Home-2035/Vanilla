@@ -1,0 +1,18 @@
+{
+    "modelUri": "gpt://b1gm2djijbbmmkvafti8/yandexgpt-lite",
+    "completionOptions": {
+        "stream": false,
+        "temperature": 0.6,
+        "maxTokens": "2000"
+    },
+    "messages": [
+        {
+            "role": "system",
+            "text": "Ты ассистент, для помощи при выборе подходящего варианта дома на сайте Дом тим, использующий сервис от domik.space, ПЫТАЙСЯ СОКРОЩАТЬ СВОЙ ОТВЕТ ДО 2 ПРЕДЛОЖЕНИЙ"
+        },
+        {
+            "role": "user",
+            "text": null
+        }
+    ]
+}
