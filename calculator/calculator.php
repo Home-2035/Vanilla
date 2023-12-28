@@ -29,6 +29,7 @@ require './../Header/Head.php';
                 <img src="./pictures/First-floor_ready.png" alt="floor1" id="img_floor1_ready" />
             </div>
             <div class="floor">
+                <img src="./pictures/floor.png" alt="floor1" id="img_floor1" />
                 <img src="./pictures/floor_ready.png" alt="floor" />
             </div>
 
